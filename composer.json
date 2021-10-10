@@ -1,0 +1,27 @@
+{
+    "name": "itx/container",
+    "type": "library",
+    "description": "Itx dependency container",
+    "keywords": ["itx dependency container"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Arafa",
+            "email": "hello@ahmadarafa.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"  ,
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itx\\Container\\": "src/" 
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }  
+    }
+}
